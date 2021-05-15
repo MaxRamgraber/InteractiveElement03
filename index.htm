@@ -2,8 +2,9 @@
 <html>
 
   <head>
+    <meta name="A simple AEM sandbox." content="Analytic Element Sandbox">
+    <title>Analytic Element Sandbox</title>
     <script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
-    
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-hsv.v0.1.min.js"></script>
     <script src="https://d3js.org/d3-contour.v1.min.js"></script>
@@ -928,7 +929,7 @@
             .attr("y1",(p1[1]+1)/2*height*0.9+height_offset)
             .attr("y2",(p2[1]+1)/2*height*0.9+height_offset)
             .attr("stroke", "#333333")
-            .attr("stroke-width", 10)
+            .attr("stroke-width", 10*height/450)
             .attr("stroke-linecap","round")
             .attr("id","line_element");
         
